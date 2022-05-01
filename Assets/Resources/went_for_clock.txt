@@ -1,0 +1,53 @@
+_storyteller_: вы пошли прямо.
+/bgsound sound4
+
+_storyteller_: абсолютная тишина.
+_storyteller_: ~интересно, насколько длинная эта дорога?~
+_storyteller_: ~узнаем, когда выйдем из этой темноты.~
+_storyteller_: ~а может и не выйдем никогда.~
+_storyteller_: длинные дороги очень утомляют вас. 
+_storyteller_: однако, знать время важнее.
+_storyteller_: с разных сторон доносились разные голоса.
+_storyteller_: разобрать что-то было сложно, но они явно что-то говорят.
+_storyteller_: странное место.
+_storyteller_: ~как-то мне уже не нравится эта идея.~
+_storyteller_: ~но назад пути нет, я просто потеряюсь.~
+_storyteller_: ...
+_storyteller_: вы идёте уже час.
+_storyteller_: ваши ноги отказывают, но желание не отсупает.
+_storyteller_: *вы ударяетесь об какой-то твёрдый предмет*
+/wait 1
+/bgsound brokenRadio
+/wait 1
+_storyteller_: кажется, своим ударом вы включили радио.
+_storyteller_: особо толкового из него ничего не услышать, однако, какие-то звуки он издаёт.
+
+/button1 прислушаться
+{
+_storyteller_: вы решили прислушаться.
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: ...
+_storyteller_: да, ничего полезного мы не услышали.
+}
+
+/button2 пройти мимо
+{
+_storyteller_: вы прошли мимо.
+}
+/bgsound sound4
+_storyteller_: продолжаем путь.
+_storyteller_: теперь надо идти осторожнее, чтобы ничего не задеть.
+_storyteller_: вдали виднеется что-то... зеленое.
+_storyteller_: кажется, это выход.
+_storyteller_: вы ускорили шаг.
+_storyteller_: ~наконец-то! наконец-то я выберусь отсюда!~
+_storyteller_: чем быстрее вы шли, тем уже становилась дверь.
+_storyteller_: похоже на какую-то очередную ловушку или что-то такое.
+_storyteller_: однако...
+/bgsound sound2
+twonkykong: однако, это конец demo-версии!
